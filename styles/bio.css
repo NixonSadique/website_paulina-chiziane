@@ -3,19 +3,19 @@ header {
     margin-bottom: 2rem;
 }
 
-#navigator{
+#navigator {
     flex-grow: 1;
 }
 
-#navigator ul{
+#navigator ul {
     width: inherit;
 }
 
-.indice{
+.indice {
     padding: 1px;
 }
 
-.indice a{
+.indice a {
     padding: 0.5rem 0;
     display: block;
     text-decoration: none;
@@ -23,21 +23,39 @@ header {
     color: #000;
 }
 
-main{
+main {
     padding: 1rem 1rem 0;
     letter-spacing: 1.2px;
 }
 
-h2{
+section p {
+    text-align: justify;
+    width: 60%;
+    margin: auto;
+}
+
+section ul {
+    text-align: justify;
+    width: 40%;
+    margin: auto;
+}
+
+section h2,h3{
+    margin: 10px auto;
+    text-align: center;
+}
+
+
+h2 {
     margin-top: 1.5rem;
 }
 
-.content-image{
+.content-image {
     padding-top: 1rem;
     text-align: center;
 }
 
-.temas{
+.temas {
     margin-top: 0.5rem;
     padding-left: 3rem;
 }
