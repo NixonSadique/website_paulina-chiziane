@@ -18,30 +18,84 @@
         </div>
     </header>
 
-    <div class="layout">
-        <input id="toogleSidebar" type="button" value=":::" onclick="toogleSidebar()">
-        <nav id="navigator" >
-            <ul>
-                <li><a href="/index.html">Pagina Inicial</a></li>
-                <li><a href="/pages/biografia.html">Biografia</a></li>
-                <li><a href="/pages/obras.html">Obras</a></li>
-                <li><a href="/pages/timeline.html">Linha do Tempo</a></li>
-                <li><a href="/pages/impacto.html">Impacto e Legado</a></li>
-                <li><a href="/pages/galeria.html">Galeria</a></li>
-                <li><a href="/pages/citacoes.html">Citacoes</a></li>
-                <li><a href="/pages/noticias.html">Noticias e Atualizacoes</a></li>
-                <li><a href="/pages/contactos.html">Contactos</a></li>
-            </ul>
-        </nav>
-    </div>
-
-
-    <nav class="indice">
-        <h2>Índice:</h2>
-        <a href="#infancia">Infância e Formação</a>
-        <a href="#inicio">Início da Carreira Literária</a>
-        <a href="#carreira">Carreira Literária e Temas</a>
-        <a href="#premios">Reconhecimento e Prémios</a>
+    <nav id="navigator" class="collapsed">
+        <ul>
+            <li>
+                <button id="toogleSidebar" onclick="toogleSidebar()">
+                    <img id="close" src="/images/close-sidebar.svg" alt="">
+                    <img id="open" src="/images/open-sidebar.svg" class="hidden">
+                    <p>Close Sidebar</p>
+                </button>
+            </li>
+            <li>
+                <a href="/index.html">
+                    <img src="/images/home.svg" alt="">
+                    <p>Pagina Inicial</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" style="text-decoration: underline;">
+                    <img src="/images/vida.svg" alt="">
+                    <p>
+                        Biografia
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="/pages/obras.html">
+                    <img src="/images/books.svg" alt="">
+                    <p>
+                        Obras
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="/pages/timeline.html">
+                    <img src="/images/timeline.svg" alt="">
+                    <p>
+                        Linha do Tempo
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="/pages/impacto.html">
+                    <img src="/images/legado.svg" alt="">
+                    <p>
+                        Impacto e Legado
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="/pages/galeria.html">
+                    <img src="/images/images.svg">
+                    <p>
+                        Galeria
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="/pages/citacoes.html">
+                    <img src="/images/quote.svg" alt="">
+                    <p>Citacoes</p>
+                </a>
+            </li>
+            <li>
+                <a href="/pages/noticias.html">
+                    <img src="/images/newspaper.svg" alt="">
+                    <p>
+                        Noticias e Atualizacoes
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="/pages/contactos.html">
+                    <img src="/images/contact.svg" alt="">
+                    <p>
+                        Contactos
+                    </p>
+                </a>
+            </li>
+        </ul>
     </nav>
 
     <main>

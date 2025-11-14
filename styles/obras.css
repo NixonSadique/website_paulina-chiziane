@@ -21,7 +21,8 @@ h2{
   justify-content: center;
   gap: 20px 25px;
   padding: 20px 0;
-  background-color: #f7f7f7;
+  background-color: #edecec;
+  border-radius: 1rem;
 }
 
 .card {

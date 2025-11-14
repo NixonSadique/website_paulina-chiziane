@@ -33,21 +33,17 @@ header {
     margin-bottom: 1rem;
 }
 
-.layout {
-    display: flex;
-}
-
 #content {
-    flex-grow: 1;
-    position: relative;
     padding: 1rem 0px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 1rem;
+    /* margin-left: 66px; */
     border: #2e2e2e 1px solid;
     border-radius: 0.675rem;
+    z-index: 1;
 }
 
 #content:hover {
@@ -57,42 +53,52 @@ header {
     margin: 0.5rem;
 }
 
-#toogleSidebar {
-    all: unset;
-    background-color: lightgrey;
-    border: #2e2e2e 1px solid;
-    border-radius: 0 15px 15px 0;
-    min-height: 452px;
-}
-
-#toogleSidebar:hover {
-    cursor: pointer;
-    background-color: gray;
-}
-
 #navigator {
-    position: sticky;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
     padding: 5px;
     text-align: center;
-    background-color: lightgray;
+    background-color: rgba(211, 211, 211, 0.381);
     margin: 1rem;
     border-radius: 0.675rem;
+    z-index: 2;
+    max-width: 30%;
 }
 
-.hidden {
-    display: none;
-}
+
 
 #navigator ul {
     list-style-type: none;
     padding: 0;
-    justify-content: space-evenly;
-    width: 300px;
-    text-align: center;
+    /* width: 300px; */
+    /* text-align: center; */
 }
 
+#toogleSidebar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-radius: 0.675rem;
+    font-weight: bolder;
+    font-size: 1em;
+    background-color: #00000000;
+    border: none;
+    width: 100%;
+}
+
+#toogleSidebar:hover {
+    cursor: pointer;
+    background-color: #2e2e2ea3;
+}
+
+
 #navigator li a {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     color: #000;
     padding: 1rem 1rem;
     text-decoration: none;
@@ -106,6 +112,12 @@ header {
     background-color: #2e2e2e;
     color: white;
 }
+
+/* .collapsed li a:hover {
+    width: 50px;
+    background-color: #2e2e2e;
+    color: white;
+} */
 
 #intro-text {
     margin: 15px auto;
@@ -158,4 +170,17 @@ footer {
 #socials img {
     width: 2rem;
     margin: auto 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.collapsed p{
+    display: none;
+}
+
+.collapsed{
+    width: 66px;
+    /* overflow: hidden; */
 }
