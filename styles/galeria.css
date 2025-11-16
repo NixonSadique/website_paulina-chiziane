@@ -1,0 +1,25 @@
+header{
+    background-image: linear-gradient(#000, #fff);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.gallery img {
+    width: auto;
+    height: 300px;
+    border-radius: 12px;
+    transition: transform 0.5s ease-out, box-shadow 0.3s ease;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.gallery img:hover {
+    transform: scale(1.5);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}

@@ -8,7 +8,8 @@ header {
     position: relative;
     /* width: 80%; */
     margin: 0 auto;
-    background-color: #cee6f3;
+    background-image: linear-gradient(#afd1e9 0%, #c4e0f0 15%, #d1e7f4 50%, #d6e8ef 80%, #FFFFFF 100%);
+    background-color: #afd1e9;
     border-radius: 1rem;
     padding: 2rem 0;
 }

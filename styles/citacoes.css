@@ -1,0 +1,56 @@
+header {
+    background-image: url(/images/paulina-chiziane-fotos-81.jpg);
+    background-size: 100% 100%;
+    margin-bottom: 2rem;
+}
+
+main {
+    padding: 1rem 1rem 0;
+    letter-spacing: 1.2px;
+}
+
+.quotes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem 1.5rem;
+    /* border: 1px solid black; */
+    background-color: #edecec;
+    padding: 1rem 2rem;
+    margin: 2rem 6rem;
+    border-radius: 0.675rem;
+}
+
+.quote-wrapper {
+    box-shadow: 0 4px 8px #7c7878;
+    justify-items: center;
+    /* border: 1px solid black; */
+    padding: 1.5rem;
+    border-radius: 0.675rem;
+    background-color: #ffffff;
+    max-width: 70%;
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+
+.quote-wrapper:hover {
+    box-shadow: 0 4px 1rem #403f3f;
+    font-weight: 700;
+    max-width: 80%;
+    transform: scale(1.1);
+}
+
+.quote {
+    border-bottom: 1px solid red;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+.book-name {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: #767474;
+
+}

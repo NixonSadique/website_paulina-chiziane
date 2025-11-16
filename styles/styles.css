@@ -41,7 +41,7 @@ header {
     justify-content: center;
     margin: 1rem;
     /* margin-left: 66px; */
-    border: #2e2e2e 1px solid;
+    /* border: #2e2e2e 1px solid; */
     border-radius: 0.675rem;
     z-index: 1;
 }

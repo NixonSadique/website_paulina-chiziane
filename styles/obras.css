@@ -36,7 +36,9 @@ h2{
 
 .card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 8px 16px #7c7676;
+  transform: scale(1.09);
+  box-shadow: 0 8px 16px #636060;
+  z-index: 2;
 }
 
 .card img {
