@@ -14,7 +14,6 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem 1.5rem;
-    /* border: 1px solid black; */
     background-color: #edecec;
     padding: 1rem 2rem;
     margin: 2rem 6rem;
@@ -24,7 +23,6 @@ main {
 .quote-wrapper {
     box-shadow: 0 4px 8px #7c7878;
     justify-items: center;
-    /* border: 1px solid black; */
     padding: 1.5rem;
     border-radius: 0.675rem;
     background-color: #ffffff;
@@ -34,7 +32,7 @@ main {
 }
 
 .quote-wrapper:hover {
-    box-shadow: 0 4px 1rem #403f3f;
+    box-shadow: 0 8px 16px #636060;
     font-weight: 700;
     max-width: 80%;
     transform: scale(1.1);

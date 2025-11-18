@@ -40,8 +40,9 @@ header {
     align-items: center;
     justify-content: center;
     margin: 1rem;
-    /* margin-left: 66px; */
-    /* border: #2e2e2e 1px solid; */
+    height: 50vh;
+    transition: all 0.5s ease;
+    margin-left: 310px;
     border-radius: 0.675rem;
     z-index: 1;
 }
@@ -49,8 +50,10 @@ header {
 #content:hover {
     font-size: larger;
     font-weight: bold;
-    background-color: #f2f2f2;
-    margin: 0.5rem;
+    transform: scale(1.05);
+    background-color: #e4e3e3;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #navigator {
@@ -67,13 +70,13 @@ header {
     max-width: 30%;
 }
 
-
-
 #navigator ul {
     list-style-type: none;
     padding: 0;
-    /* width: 300px; */
-    /* text-align: center; */
+}
+
+#navigator p{
+    margin-left: 1rem;
 }
 
 #toogleSidebar {
@@ -103,7 +106,6 @@ header {
     padding: 1rem 1rem;
     text-decoration: none;
     font-weight: bolder;
-    /* border: #2e2e2e 1px solid; */
     margin: 1px auto;
     border-radius: 0.675rem;
 }
@@ -113,11 +115,6 @@ header {
     color: white;
 }
 
-/* .collapsed li a:hover {
-    width: 50px;
-    background-color: #2e2e2e;
-    color: white;
-} */
 
 #intro-text {
     margin: 15px auto;
@@ -128,7 +125,6 @@ header {
     margin: 1rem 0;
     padding: 2rem 0;
     background-color: #2e2e2e;
-    /* justify-items: self-end; */
     justify-content: space-between;
     display: flex;
     color: #000;
@@ -182,5 +178,4 @@ footer {
 
 .collapsed{
     width: 66px;
-    /* overflow: hidden; */
 }

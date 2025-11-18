@@ -1,5 +1,5 @@
-header{
-    background-image: linear-gradient(#000, #fff);
+header {
+    background-image: url("/images/Paulina-Chiziane2.jpg");
 }
 
 .gallery {
@@ -10,16 +10,17 @@ header{
     padding: 3rem;
 }
 
-.gallery img {
+.gallery * {
     width: auto;
-    height: 300px;
+    height: 450px;
     border-radius: 12px;
+    box-shadow: 0 4px 8px #7c7878;
     transition: transform 0.5s ease-out, box-shadow 0.3s ease;
     object-fit: cover;
     cursor: pointer;
 }
 
-.gallery img:hover {
-    transform: scale(1.5);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+.gallery *:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px #636060;
 }

@@ -4,14 +4,33 @@ header {
 }
 
 
-main {
-    padding: 1rem 1rem 0;
+.main-content {
+    margin: 1rem 1rem 0;
+    padding: 1rem 1rem;
+    border-radius: 0.675rem;
     letter-spacing: 1.2px;
+    background-color: #edecec;
+}
+
+
+section {
+    background-color: #fff;
+    padding: 3rem;
+    margin: 1.2rem 3rem;
+    border-radius: 0.675rem;
+    box-shadow: 0 4px 8px #7c7878;
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px #636060;
+
 }
 
 section p {
     text-align: justify;
-    width: 60%;
+    width: 70%;
     margin: auto;
 }
 
@@ -21,18 +40,27 @@ section ul {
     margin: auto;
 }
 
-section h2,h3{
+section h2,
+h3 {
     margin: 10px auto;
     text-align: center;
 }
 
-h2 {
-    margin-top: 1.5rem;
+section h2 {
+    font-size: 2rem;
+}
+
+section h3 {
+    font-size: 1.6rem;
 }
 
 .content-image {
     padding-top: 1rem;
     text-align: center;
+}
+
+.content-image img {
+    border-radius: 0.675rem;
 }
 
 .temas {

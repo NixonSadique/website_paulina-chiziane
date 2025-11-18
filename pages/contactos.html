@@ -1,11 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/contactos.css">
+    <script src="/scripts/script.js"></script>
     <title>Contactos</title>
 </head>
+
 <body>
-    
+
+    <nav id="navigator" class="collapsed">
+        <ul>
+            <li>
+                <button id="toogleSidebar" onclick="toogleSidebar()">
+                    <img id="close" src="/images/close-sidebar.svg" class="hidden">
+                    <img id="open" src="/images/open-sidebar.svg">
+                    <p>Fechar Sidebar</p>
+                </button>
+            </li>
+            <li>
+                <a href="/index.html">
+                    <img src="/images/home.svg" alt="">
+                    <p>Pagina Inicial</p>
+                </a>
+            </li>
+            <li>
+                <a href="/pages/biografia.html">
+                    <img src="/images/vida.svg" alt="">
+                    <p>
+                        Biografia
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="/pages/obras.html">
+                    <img src="/images/books.svg" alt="">
+                    <p>
+                        Obras
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="/pages/timeline.html">
+                    <img src="/images/timeline.svg" alt="">
+                    <p>
+                        Linha do Tempo
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="/pages/impacto.html">
+                    <img src="/images/legado.svg" alt="">
+                    <p>
+                        Impacto e Legado
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="/pages/galeria.html">
+                    <img src="/images/images.svg">
+                    <p>
+                        Galeria
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="/pages/citacoes.html">
+                    <img src="/images/quote.svg" alt="">
+                    <p>Citacoes</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" style="text-decoration: underline;">
+                    <img src="/images/contact.svg" alt="">
+                    <p>
+                        Contactos
+                    </p>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Paulina Chiziane</h1>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <div class="name-card card">
+                <h2>Feito Por</h2>
+                <p>Nixon Sadique</p>
+            </div>
+            
+            <div class="social-card card">
+                <h2>Encontre me atraves de:</h2>
+                <a href="https://www.instagram.com/_nixon_sadique/"><img src="/images/instagram.svg" alt=""></a>
+                <a href="#"><img src="/images/whatsapp.svg" alt=""></a>
+                <a href="https://github.com/NixonSadique/"><img src="/images/github.svg" alt=""></a>
+            </div>
+            <div class="social-card card">
+                <h2>Contactos</h2>
+                <p>
+                    E-Mail 1:
+                    <a href="mailto:nixonsadique2005@gmail.com">nixonsadique2005@gmail.com</a>
+                </p>
+                <p>
+                    E-Mail 2:
+                    <a href="mailto:nixonsadique@gmail.com">nixonsadique@gmail.com</a>
+                </p>
+                <p>
+                    Celular:
+                    <a href="tel:+258827793535">82 779 3535</a>
+                </p>
+            </div>
+            
+            <div class="form-card card">
+                <h2>Envie Sugestoes e mensagens</h2>
+                <form onsubmit="formManagement()">
+                    <input type="text" placeholder="Nome" required>
+                    <input type="email" placeholder="E-Mail" required>
+                    <textarea name="" placeholder="Mensagens ou Sugestões" required></textarea>
+                    <button>Enviar</button>
+                </form>
+            </div>
+
+
+        </div>
+    </main>
+
+    <footer>
+        <div id="nome">
+            <h4>Made by:</h4>
+            <p>Nixon Sadique Macucha</p>
+        </div>
+
+        <div id="contactos">
+            <h4>Contactos</h4>
+            <p>
+                E-Mail:
+                <a href="mailto:nixonsadique2005@gmail.com">nixonsadique2005@gmail.com</a>
+            </p>
+            <p>
+                Celular:
+                <a href="tel:+258827793535">82 779 3535</a>
+            </p>
+        </div>
+        <div id="socials">
+            <h4>Socials</h4>
+            <a href="https://www.instagram.com/_nixon_sadique/"><img src="/images/instagram.svg" alt=""></a>
+            <a href="#"><img src="/images/whatsapp.svg" alt=""></a>
+            <a href="https://github.com/NixonSadique/"><img src="/images/github.svg" alt=""></a>
+        </div>
+    </footer>
 </body>
+
 </html>

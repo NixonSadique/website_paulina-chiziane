@@ -1,0 +1,61 @@
+header{
+    background-image: url("/images/discurso_paulina.jpeg");
+}
+
+.content{
+    background-color: #edecec;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.675rem;
+    letter-spacing: 1.2px;
+}
+
+section {
+    background-color: #fff;
+    padding: 3rem;
+    margin: 1.2rem 3rem;
+    border-radius: 0.675rem;
+    box-shadow: 0 4px 8px #7c7878;
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: scale(1.05);
+}
+
+section h2,
+section h3 {
+    margin: 10px auto;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2rem;
+}
+
+section h3 {
+    font-size: 1.6rem;
+}
+
+section p {
+    margin-bottom: 14px;
+    font-size: 1.05rem;
+}
+
+section ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+section ul li {
+    margin-bottom: 8px;
+}
+
+.content-image {
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.content-image img{
+    border-radius: 0.675rem;
+}
